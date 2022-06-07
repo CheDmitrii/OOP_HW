@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/HW_1.dir/KOMPLEKS_2sem_1/kompleks.cpp.o"
+  "CMakeFiles/HW_1.dir/KOMPLEKS_2sem_1/main.cpp.o"
+  "HW_1"
+  "HW_1.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/HW_1.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

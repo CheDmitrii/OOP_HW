@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ekaterinacebykina/Desktop/labi_si++/HW_(oop)/HW_2/hed1.h
+iostream
+-
+
+/Users/ekaterinacebykina/Desktop/labi_si++/HW_(oop)/HW_2/hed2.h
+iostream
+-
+math.h
+-
+
+/Users/ekaterinacebykina/Desktop/labi_si++/HW_(oop)/HW_2/main.cpp
+fstream
+-
+string
+-
+hed1.h
+/Users/ekaterinacebykina/Desktop/labi_si++/HW_(oop)/HW_2/hed1.h
+hed2.h
+/Users/ekaterinacebykina/Desktop/labi_si++/HW_(oop)/HW_2/hed2.h
+

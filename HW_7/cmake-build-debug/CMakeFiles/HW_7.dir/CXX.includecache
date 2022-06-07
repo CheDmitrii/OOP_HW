@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ekaterinacebykina/Desktop/labi_si++/HW_(oop)/HW_7/classes.h
+iostream
+-
+
+/Users/ekaterinacebykina/Desktop/labi_si++/HW_(oop)/HW_7/main.cpp
+iostream
+-
+classes.h
+/Users/ekaterinacebykina/Desktop/labi_si++/HW_(oop)/HW_7/classes.h
+

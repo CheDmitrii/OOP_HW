@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
-project(KOMPLEKS_2sem_1)
+project(HW_1)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(KOMPLEKS_2sem_1 main.cpp kompleks.h kompleks.cpp)
+add_executable(HW_1 main.cpp kompleks.h kompleks.cpp)

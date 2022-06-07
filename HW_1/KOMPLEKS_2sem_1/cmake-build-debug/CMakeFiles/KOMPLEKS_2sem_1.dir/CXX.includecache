@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ekaterinacebykina/Desktop/labi_si++/HW_(oop)/HW_1/KOMPLEKS_2sem_1/kompleks.cpp
+kompleks.h
+/Users/ekaterinacebykina/Desktop/labi_si++/HW_(oop)/HW_1/KOMPLEKS_2sem_1/kompleks.h
+math.h
+-
+cmath
+-
+
+/Users/ekaterinacebykina/Desktop/labi_si++/HW_(oop)/HW_1/KOMPLEKS_2sem_1/kompleks.h
+
+/Users/ekaterinacebykina/Desktop/labi_si++/HW_(oop)/HW_1/KOMPLEKS_2sem_1/main.cpp
+iostream
+-
+kompleks.h
+/Users/ekaterinacebykina/Desktop/labi_si++/HW_(oop)/HW_1/KOMPLEKS_2sem_1/kompleks.h
+fstream
+-
+string
+/Users/ekaterinacebykina/Desktop/labi_si++/HW_(oop)/HW_1/KOMPLEKS_2sem_1/string
+vector
+-
+

@@ -10,8 +10,8 @@ komp kompcreate (double re, double im){
     komp result = {re, im};
     return result;
 }
-komp kompplus(komp c1, komp c2){
-    return kompcreate(c1.re + c2.re, c1.im + c2.im);
+komp komp::kompplus(komp c1){
+    return kompcreate(c1.re + this->re, c1.im + this->im);
 }
 komp kompmin(komp c1, komp c2){
     return kompcreate(c1.re - c2.re, c1.im - c2.im);

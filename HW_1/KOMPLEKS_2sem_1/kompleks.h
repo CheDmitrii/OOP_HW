@@ -7,9 +7,11 @@
 struct komp{
     double re;
     double im;
+
+    komp kompplus (komp c1);
 };
 komp kompcreate(double re, double im);
-komp kompplus (komp c1, komp c2);
+
 komp kompmin (komp c1, komp c2);
 komp kompum (komp c1, komp c2);
 komp kompdel (komp c1, komp c2);

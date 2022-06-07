@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ekaterinacebykina/Desktop/labi_si++/HW_(oop)/HW_12/hed.h
+iostream
+-
+math.h
+-
+
+/Users/ekaterinacebykina/Desktop/labi_si++/HW_(oop)/HW_12/main.cpp
+iostream
+-
+hed.h
+/Users/ekaterinacebykina/Desktop/labi_si++/HW_(oop)/HW_12/hed.h
+fstream
+-
+string
+-
+
